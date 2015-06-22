@@ -118,4 +118,6 @@ int DoIRomDownload(struct sdp_dev *dev, struct sdp_work *curr, int verify);
 #define PATH_SEPARATOR	'\\'
 #endif
 
+#define LOCAL_CONF_DIR "conf/"
+
 #endif /* __IMX_SDP_H__ */

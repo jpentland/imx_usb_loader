@@ -133,6 +133,8 @@ char const *get_base_path(char const *argv0)
 		dbg_printf( "no trailing slash\n");
 	}
 
+	strcat(base_path, LOCAL_CONF_DIR);
+
 	return base_path;
 }
 
