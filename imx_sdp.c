@@ -39,7 +39,7 @@
 #include <stdint.h>
 
 
-#include "imx_sdp.h"
+#include "include/imx_sdp.h"
 int debugmode = 0;
 
 #ifndef WIN32

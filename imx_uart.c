@@ -60,7 +60,7 @@
 
 #endif
 
-#include "imx_sdp.h"
+#include "include/imx_sdp.h"
 
 #define get_min(a, b) (((a) < (b)) ? (a) : (b))
 

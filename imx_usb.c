@@ -33,7 +33,7 @@
 
 #include <libusb-1.0/libusb.h>
 
-#include "imx_sdp.h"
+#include "include/imx_sdp.h"
 
 extern int debugmode;
 #define dbg_printf(fmt, args...)	do{ if(debugmode) fprintf(stderr, fmt, ## args); } while(0)
@@ -421,7 +421,6 @@ int main(int argc, char * const argv[])
 	char const *conf;
 	char const *base_path = get_base_path(argv[0]);
 	char const *conf_path = "/etc/imx-loader.d/";
-
 	err = parse_opts(argc, argv, &conf_path, &verify, &cmd_head);
 	if (err < 0)
 		return -1;
